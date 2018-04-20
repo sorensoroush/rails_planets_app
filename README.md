@@ -2,7 +2,7 @@
 
 ![orbits](https://iwsmt-content-ok2nbdvvyp8jbrhdp.stackpathdns.com/2282013232750iAtC2afkODS6U.gif)
 
-Tonight you'll be making a little baby rails app about PLANETS!!!!. Gotta get those reps in!!! 💪💪💪
+This weekend you'll be making a little baby rails app about PLANETS!!!!. Gotta get those reps in!!! 💪💪💪
 
 ## Part 1
 Finish up [Thursday's homework!](http://guides.rubyonrails.org/getting_started.html) If you initialized your blog app without the -G keyword then go into the root of your blog app (cd into blog) and `rm -rf .git`. You should be able to push to the correct repo now.
