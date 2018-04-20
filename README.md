@@ -5,7 +5,7 @@
 Tonight you'll be making a little baby rails app about PLANETS!!!!. Gotta get those reps in!!! 💪💪💪
 
 ## Part 1
-Finish up Thursday's homework! If you initialized your blog app without the -G keyword then go into the root of your blog app and `rm -rf .git`
+Finish up Thursday's homework! If you initialized your blog app without the -G keyword then go into the root of your blog app (cd into blog) and `rm -rf .git`. You should be able to push correctly now.
 
 ## Part 2
 
