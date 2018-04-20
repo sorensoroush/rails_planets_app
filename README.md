@@ -5,37 +5,36 @@
 This weekend you'll be making a little baby rails app about PLANETS!!!!. Gotta get those reps in!!! 💪💪💪
 
 ## Part 1
-Finish up [Thursday's homework!](http://guides.rubyonrails.org/getting_started.html) If you initialized your blog app without the -G keyword then go into the root of your blog app (cd into blog) and `rm -rf .git`. You should be able to push to the correct repo now.
+Review the (fake twitter)[https://git.generalassemb.ly/wdi-nyc-ewok/CODEALONG_U04_D04_FAKE_TWITTER] updates made in class. Helpful hint: look at this (commit specifically)[https://git.generalassemb.ly/wdi-nyc-ewok/CODEALONG_U04_D04_FAKE_TWITTER/commit/9894d8f66c4f16537b15774aebdf026b43df0b94] (it's all of the changes after the rails app was initialized).
 
 ## Part 2
-
-Using what you know and the [active record lecture](https://git.generalassemb.ly/wdi-nyc-goat/U04_D05_ActiveRecord/edit/master/readme.md)...
 - Create a rails app named planets_app EX:
 ```bash
 rails new planets_app -G --database=postgresql
 ```
+- Make your initial commit! (This way every commit after will include only the code that you write.)
 - You'll have two tables: planets, and moons. 
 - You'll have two models: Planet, and Moon
    - Refer to the [planet and moon objects](./planets.rb) to see what columns need to be in your planets table 
     > Don't forget to specify the relationships between Planet and Moon
+    > Use that file to populate your seed.rb file
 - Run through the rest of the neccessary steps for migrations
-- Use the [planet and moon objects](./planets.rb) to set up your seed file
+- Use the [planet and moon objects](./planets.rb) to set up your seed file!
 
 ## Part 3
 
 You'll be creating a bunch of routes & views!
-
-- `/`: Should have a welcome message and a link to the planets page and the moons page
 - `/planets`: Has a list of all the planets! (Don't hardcode this list! Just use your database. [Maybe one of our ruby methods could help...](https://ruby-doc.org/core-2.4.2/Hash.html#method-i-each))
 - `/planets/:id`: Returns information about that specific planet
 - `/moons`: Has a list of all the moons
 - `/moons/:id`: Returns information about that specific moon
 
 ### Bonus!!
-
-- Build the weather app that we scoped in the UXDI workshop!
-- `/planets/random`: Returns a random planet
+- - `/planets/random`: Returns a random planet
 - Style it up! Flex those flexbox muscles.
+
+### Super Bonus!!
+- Build the weather app that we scoped in the UXDI workshop!
 
 ## 🚀 Completion looks like:
 
