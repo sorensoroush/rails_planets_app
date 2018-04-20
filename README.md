@@ -17,13 +17,13 @@ rails new planets_app -G --database=postgresql
 - You'll have two tables: planets, and moons. 
 - You'll have two models: Planet, and Moon
    - Refer to the [planet and moon objects](./planets.rb) to see what columns need to be in your planets table 
-    > Don't forget to specify the relation ships between Planet and Moon
+    > Don't forget to specify the relationships between Planet and Moon
 - Run through the rest of the neccessary steps for migrations
 - Use the [planet and moon objects](./planets.rb) to set up your seed file
 
 ## Part 3
 
-You'll be creating a bunch of routes & views using this object!
+You'll be creating a bunch of routes & views!
 
 - `/`: Should have a welcome message and a link to the planets page
 - `/planets`: Has a list of all the planets! (Don't hardcode this list! Just use your database. [Maybe one of our ruby methods could help...](https://ruby-doc.org/core-2.4.2/Hash.html#method-i-each))
