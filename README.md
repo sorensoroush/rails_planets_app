@@ -40,7 +40,7 @@ You'll be creating a bunch of routes & views!
 ## 🚀 Completion looks like:
 
 - You have a Rails app in this repo
-    - **REMEMBER**: Initialize your rails app using `rails new planets_app -G`.
+    - **REMEMBER**: Initialize your rails app using `rails new planets_app -G --database=postgresql`.
 - Your rails app has a Planet and Moon model with the correct columns
 - Your rails app has the routes & views described above that pull data from your database.
 
