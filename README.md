@@ -32,6 +32,8 @@ You'll be creating a bunch of routes & views!
 - `/moons/:moon`: Returns information about that specific moon
 
 ### Bonus!!
+
+- Build the weather app that we scoped in the UXDI workshop!
 - `/planets/random`: Returns a random planet
 - Style it up! Flex those flexbox muscles.
 
