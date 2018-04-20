@@ -25,7 +25,7 @@ rails new planets_app -G --database=postgresql
 
 You'll be creating a bunch of routes & views!
 
-- `/`: Should have a welcome message and a link to the planets page
+- `/`: Should have a welcome message and a link to the planets page and the moons page
 - `/planets`: Has a list of all the planets! (Don't hardcode this list! Just use your database. [Maybe one of our ruby methods could help...](https://ruby-doc.org/core-2.4.2/Hash.html#method-i-each))
 - `/planets/:planet`: Returns information about that specific planet
 - `/moons`: Has a list of all the moons
