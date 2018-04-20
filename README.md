@@ -29,7 +29,7 @@ You'll be creating a bunch of routes & views!
 - `/planets`: Has a list of all the planets! (Don't hardcode this list! Just use your database. [Maybe one of our ruby methods could help...](https://ruby-doc.org/core-2.4.2/Hash.html#method-i-each))
 - `/planets/:planet`: Returns information about that specific planet
 - `/moons`: Has a list of all the moons
-- `/moons/:moon`: Returns information about that specific planet
+- `/moons/:moon`: Returns information about that specific moon
 
 ### Bonus!!
 - `/planets/random`: Returns a random planet
