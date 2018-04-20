@@ -5,12 +5,12 @@
 Tonight you'll be making a little baby rails app about PLANETS!!!!. Gotta get those reps in!!! 💪💪💪
 
 ## Part 1
-Finish up Thursday's homework! If you initialized your blog app without the -G keyword then go into the root of your blog app (cd into blog) and `rm -rf .git`. You should be able to push to the correct repo now.
+Finish up [Thursday's homework!](http://guides.rubyonrails.org/getting_started.html) If you initialized your blog app without the -G keyword then go into the root of your blog app (cd into blog) and `rm -rf .git`. You should be able to push to the correct repo now.
 
 ## Part 2
 
 Using what you know and the [active record lecture](https://git.generalassemb.ly/wdi-nyc-goat/U04_D05_ActiveRecord/edit/master/readme.md)...
-- Create a rails app named planets EX:
+- Create a rails app named planets_app EX:
 ```bash
 rails new planets_app -G --database=postgresql
 ```
@@ -19,7 +19,7 @@ rails new planets_app -G --database=postgresql
    - Refer to the [planet and moon objects](./planets.rb) to see what columns need to be in your planets table 
     > Don't forget to specify the relation ships between Planet and Moon
 - Run through the rest of the neccessary steps for migrations
-- Use the [planet and moon objects](./planets.rb) to set up your seeds file
+- Use the [planet and moon objects](./planets.rb) to set up your seed file
 
 ## Part 3
 
