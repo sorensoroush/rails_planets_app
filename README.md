@@ -5,7 +5,7 @@
 This weekend you'll be making a little baby rails app about PLANETS!!!!. Gotta get those reps in!!! 💪💪💪
 
 ## Part 1
-Review the (fake twitter)[https://git.generalassemb.ly/wdi-nyc-ewok/CODEALONG_U04_D04_FAKE_TWITTER] updates made in class. Helpful hint: look at this (commit specifically)[https://git.generalassemb.ly/wdi-nyc-ewok/CODEALONG_U04_D04_FAKE_TWITTER/commit/9894d8f66c4f16537b15774aebdf026b43df0b94] (it's all of the changes after the rails app was initialized).
+Review the [fake twitter](https://git.generalassemb.ly/wdi-nyc-ewok/CODEALONG_U04_D04_FAKE_TWITTER) updates made in class. Helpful hint: look at [this commit specifically](https://git.generalassemb.ly/wdi-nyc-ewok/CODEALONG_U04_D04_FAKE_TWITTER/commit/9894d8f66c4f16537b15774aebdf026b43df0b94) (it's all of the changes after the rails app was initialized).
 
 ## Part 2
 - Create a rails app named planets_app EX:
