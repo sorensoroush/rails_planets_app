@@ -2,7 +2,7 @@
 
 ![orbits](https://iwsmt-content-ok2nbdvvyp8jbrhdp.stackpathdns.com/2282013232750iAtC2afkODS6U.gif)
 
-This weekend you'll be making a little baby rails app about PLANETS!!!!. Gotta get those reps in!!! 💪💪💪
+For this assignment you'll be making a baby rails app about PLANETS!!!!. Gotta get those reps in!!! 💪💪💪
 
 ## Part 1
 
@@ -37,15 +37,12 @@ You'll be creating a bunch of routes & views!
 - - `/planets/random`: Returns a random planet
 - Style it up! Flex those flexbox muscles.
 
-### Super Bonus!!
-- Build the weather app that we scoped in the UXDI workshop!
-
 ## 🚀 Completion looks like:
 
 - You have a Rails app in this repo
     - **REMEMBER**: Initialize your rails app using `rails new planets_app -G --database=postgresql`.
 - Your rails app has a Planet and Moon model with the correct columns
-- Your rails app has the routes & views described above that pull data from your database.
+- Your rails app has the routes & views described above that pull data from your seeded database.
 
 ## 🚀 Your homework submission should include:
 
