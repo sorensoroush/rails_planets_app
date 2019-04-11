@@ -1,4 +1,13 @@
-# HOMEWORK: RAILS PLANETS!!!
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  WEB DEVELOPMENT IMMERSIVE
+
+## Getting started
+
+1. Fork
+1. Create a feature branch
+1. Clone
+1. Pull Request
+
+# RAILS PLANETS!!!
 
 ![orbits](https://iwsmt-content-ok2nbdvvyp8jbrhdp.stackpathdns.com/2282013232750iAtC2afkODS6U.gif)
 
@@ -32,17 +41,3 @@ You'll be creating a bunch of routes & views!
 ### Bonus!!
 - `/planets/random`: Returns a random planet
 - Style it up! Flex those flexbox muscles.
-
-## 🚀 Completion looks like:
-
-- You have a Rails app in this repo
-- **REMEMBER**: Initialize your rails app using `rails new planets_app -G --database=postgresql`.
-- Your rails app has a Planet and Moon model with the correct columns
-- Your rails app has the routes & views described above that pull data from your seeded database.
-
-## 🚀 Your homework submission should include:
-
-- A pull request created on _this repo_.
-- Completion, comfort, wins, losses, questions... you know the drill.
-
-## This homework is due 🚨 TONIGHT 07/30 AT 11PM 🚨
