@@ -1,5 +1,4 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
+# This file should contain all the record creation needed to seed the database with its default values.  # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
 #
 # Examples:
 #
@@ -91,7 +90,7 @@ moons = {
     name: "Phobos",
     distance_from_planet: "9,380 km",
     radius: "13.5 x 10.8 x 9.4 km",
-    orbit_period: "0.3 days",
+    orbit_period: "1.3 days",
     planet: "Mars"
   },
   ganymede: {
@@ -124,6 +123,7 @@ moons.each do |key, value|
     distance_from_planet: value[:distance_from_planet],
     radius: value[:radius],
     orbit_period: value[:orbit_period],
+    # planet: value[:planet],
     planet_id: planet.id
   })
 end
