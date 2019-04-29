@@ -1,0 +1,12 @@
+<div class="element-details">
+  <h1><%= @moon.name %></h1>
+  <h2>Distance from planet: <%= @moon.distance_from_planet %></h2>
+  <h2>Radius: <%= @moon.radius %></h2>
+  <h2>Orbit period: <%= @moon.orbit_period %></h2>
+  
+  <%= link_to 'All moons', moons_path %>
+  
+  <% if params[:id] == nil %>
+    <button><%= link_to 'Random Moon', moons_random_path %></button>
+  <% end %>
+</div>
