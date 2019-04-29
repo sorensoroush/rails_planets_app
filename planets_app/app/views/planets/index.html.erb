@@ -1,6 +1,11 @@
-<h1>List of Planets</h1>
-<ul>
-  <% @planets.each do |p| %>
-    <li><%= link_to p.name, planet_path(p) %></li>
-  <% end %>
-</ul>
+<div class="element-list">
+  <h1>List of Planets</h1>
+  <ul>
+    <% @planets.each do |p| %>
+      <li><%= link_to p.name, planet_path(p) %></li>
+    <% end %>
+  </ul>
+  
+  <button><%= link_to 'Random Planet', planets_random_path %></button><br>
+  <button><%= link_to 'List of Moons', moons_path%></button>
+</div>

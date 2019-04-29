@@ -1,3 +1,33 @@
 // Place all the styles related to the Planets controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  text-align: center;
+}
+
+.element-list, .element-details {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+ul {
+}
+
+li {
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  display: block;
+}
+
+a {
+  font-size: 18px;
+}
+

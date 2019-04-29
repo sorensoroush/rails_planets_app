@@ -7,6 +7,11 @@ class MoonsController < ApplicationController
   def show
   end
   
+  def random
+    @moon = Moon.all.order("RANDOM()").first
+    render :show 
+  end
+  
   private
 
   def get_moon

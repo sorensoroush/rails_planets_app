@@ -6,9 +6,15 @@ class PlanetsController < ApplicationController
 
   def show
   end
+
+  def random
+    @planet = Planet.all.order("RANDOM()").first
+    render :show 
+  end
   
   private
-    def get_planet
-      @planet = Planet.find(params[:id])
-    end
+
+  def get_planet
+    @planet = Planet.find(params[:id])
+  end
 end
